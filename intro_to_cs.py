@@ -121,7 +121,7 @@ MIT6.100L Lecture2  Strings, Input/Output, and Braching
 
 
 # INPUT 
-  a. input always returns a str --> must cast if working with numbers 
+  a. input always returns a str --> must cast int working with numbers 
       e.g., num2 = int(input("Type a number: ")) 
             print(5*num2)  
 
