@@ -162,7 +162,7 @@ MIT6.100L Lecture2  Strings, Input/Output, and Braching
 # WHY BOOL? 
     a. When we get to flow of control, 
         i.e., braching to different expressions based on values 
-              we need a way of knowing if condition is true 
+              we need a way of knowing if condition is True 
         e.g., if something is true, do this, other wise do that(some other commands).  
       
 
