@@ -116,6 +116,31 @@ IT CREATES A NEW ENVIRONMENT WITH EVERY FUNCTION CALL
 
 
 
+# PRACTICE 
+def apply(criteria, n):
+    """
+    :param criteria: criteria is a func that takes in a number and returns a bool
+    :param n:        n is an int
+    :return:         returns how many ints from 0 to n (inclusive) math the criteria
+    """
+    count = 0
+    for i in range(n + 1):
+        if criteria(i):
+            # in order to return a bool --> add if   
+            count += 1
+    return count
+
+
+def is_even(x):
+    return x % 2 == 0
+
+def is_four(x):
+    return x == 4 
+
+
+print(apply(is_even, 10))
+print(apply(is_four, 10)) 
+
 
 
 
