@@ -16,7 +16,7 @@ BIG IDEA: Apply abstraction (black box) and decomposition (split into self-conta
 
 # FUNCTION 
   a. some code written in a special and resuable way
-  b. capture steps of a computaton so that we can use with any input 
+  b. capture steps of a computation so that we can use with any input 
 
 
 
@@ -90,7 +90,7 @@ def is_even(i):
         if i % 2 == 1:
             print(f'{i} is an odd number.')
             sum_odds += i
-    print(sum_odds)
+    return sum_odds 
 
 # BIG IDEA: Solve a simpler problem first. Add functionality to the code later. 
 # BIG IDEA: Test code often. Use prints to debug. 
